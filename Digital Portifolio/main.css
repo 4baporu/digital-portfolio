@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    color: whitesmoke;
+    background-color: rgb(41, 33, 49);
+}
+
+
+header {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+    padding: 5px;
+
+    height: 85vb;
+
+    border: solid gray;
+}
+
+
+.navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 5px;
+
+    width: 80vb;
+    height: 50px;
+
+
+    border: solid lightgray;
+
+    font-size: 22px;
+}
+
+.navbar-item {
+    padding: 5px;
+    border: solid pink;
+
+    height: 40px;
+
+}
